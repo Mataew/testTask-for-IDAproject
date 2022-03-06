@@ -1,0 +1,27 @@
+.addingForms__price {
+  margin-top: 16px;
+}
+
+.addingForms__price__circle {
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  width: 4px;
+  height: 4px;
+  background-color: #ff8484;
+}
+
+.addingForms__price__title {
+  display: flex;
+}
+
+.addingForms__price__input {
+  border: none;
+  margin-top: 4px;
+  width: 100%;
+  font-size: 12px;
+  padding: 10px 16px;
+  background: #fffefb;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}

@@ -1,0 +1,18 @@
+.addingForms__description {
+  margin-top: 16px;
+}
+
+.addingForms__description__title {
+  display: flex;
+}
+
+.addingForms__description__input {
+  border: none;
+  margin-top: 4px;
+  width: 100%;
+  font-size: 12px;
+  padding: 10px 16px 83px 16px;
+  background: #fffefb;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}

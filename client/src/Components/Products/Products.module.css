@@ -1,0 +1,64 @@
+.products {
+  display: flex;
+  width: 1044px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.products__item {
+  width: 332px;
+  height: 423px;
+  margin-bottom: 16px;
+  margin-left: 16px;
+  align-content: stretch;
+  background: #fffefb;
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.04),
+    0px 6px 10px rgba(0, 0, 0, 0.02);
+  border-radius: 4px;
+  position: relative;
+}
+
+.products__deleteButton {
+  position: absolute;
+  border-radius: 10px;
+  width: 32px;
+  height: 32px;
+  border: none;
+  left: 93%;
+  top: -2%;
+  background: #ff8484;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 6px;
+}
+
+.products__deleteButton:hover {
+  cursor: pointer;
+}
+.products__deleteButton img {
+  pointer-events: none;
+}
+
+.products__item__wrapperImage {
+  width: 100%;
+}
+
+.products__item__wrapperImage img {
+  width: 100%;
+}
+
+.products__item__description {
+  padding: 16px;
+}
+
+.products__item__description p {
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+.products__item__description h2 {
+  margin-top: 32px;
+}
+
+.loader {
+  transform: translateY(50%) translateX(50%);
+}
